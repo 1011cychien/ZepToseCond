@@ -1,4 +1,4 @@
-# BBQube
+# ZepToseCond
 Codebook of NTU BBQube by baluteshih, briansu, icube
 
 Current Version: [Codebook.pdf](https://github.com/brianbbsu/BBQube/blob/codebook/codebook.pdf)
