@@ -9,10 +9,10 @@ if [ -z ${GITHUB_TOKEN+x} ]; then
   GITHUB_TOKEN=$1
 fi
 
-git config --global user.name "Brian Su (Built with Travis-CI)"
-git config --global user.email brianbb.su@gmail.com
+git config --global user.name "Chris Chien (Built with Travis-CI)"
+git config --global user.email "chris.89357@gmail.com"
 
-git clone https://github.com/brianbbsu/BBQube.git --branch master --single-branch /master/
+git clone https://github.com/1011cychien/ZepToseCond.git --branch master --single-branch /master/
 cd /master/codebook
 
 if [ -f codebook.pdf ]; then
@@ -31,7 +31,7 @@ curtime=$(date +"%Y-%m-%d_%H:%M:%S")
 
 echo "Current time is: $curtime."
 
-git clone https://brianbbsu:$GITHUB_TOKEN@github.com/brianbbsu/BBQube.git --branch codebook --single-branch /codebook/
+git clone https://1011cychien:$GITHUB_TOKEN@github.com/1011cychien/ZepToseCond.git --branch codebook --single-branch /codebook/
 
 cp codebook.default.pdf /codebook/codebook.pdf
 cp codebook.test.pdf /codebook/codebook.test.pdf
