@@ -1,7 +1,7 @@
 # ZepToseCond
 Codebook of NTU BBQube by baluteshih, briansu, icube
 
-Current Version: [Codebook.pdf](https://github.com/brianbbsu/BBQube/blob/codebook/codebook.pdf)
+Current Version: [Codebook.pdf](https://github.com/1011cychien/ZepToseCond/blob/codebook/codebook.pdf)
 
 # Result
 
